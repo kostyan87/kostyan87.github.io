@@ -1,2 +1,2 @@
-# kostyan87.github.io
+# kostyan87
 my first site
