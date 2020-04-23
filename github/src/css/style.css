@@ -1,0 +1,652 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+
+	.basic{
+		float:left;
+	}
+}
+
+.logo{
+	margin-top: 22px;
+	float: left;
+}
+
+header {
+	height: 93px;
+}
+
+header nav {
+	float: right;
+	margin-top: 42px;
+}
+
+header li {
+	float: left;
+	margin-left: 49px
+}
+
+a {
+	color: #868686;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13.5px;
+}
+
+a:hover {
+	background: orange;
+}
+
+.forms {
+	height: 588px;
+	background: #709dca;
+	
+}
+
+.boost {
+	color: white;
+	text-align: center;
+	padding-top: 110px;
+}
+
+.up {
+	font-size: 35px;
+}
+
+.down {
+	font-size: 16px;
+	margin-top: 13px;
+}
+
+span {
+	display: block;
+}
+
+form {
+	padding-left: 41px;
+	margin-top: 33px;
+}
+
+input {
+	height: 46px;
+	width: 282px;
+	margin-right: 10px;
+	border: 0;
+	border-radius: 2px;
+	padding-left: 41px;
+}
+
+.name {
+	background: white url(../img/person.png) no-repeat;
+	background-position: 15px 16px;
+}
+
+.mail {
+	background: white url(../img/email.png) no-repeat;
+	background-position: 15px 16px;
+}
+
+.num{
+	background: white url(../img/phone.png) no-repeat;
+	background-position: 15px 16px;
+}
+
+button {
+	border-radius: 2px;
+	padding: 0;
+	border: 0;
+	height: 46px;
+	width: 211px;
+	font-size: 14px;
+	color: #ffffff;
+	background: #ffbb42;
+}
+
+.laptop {
+	margin-top: 66px;
+	margin-left: 262px;
+}
+.pic {
+	position: absolute;
+	left: 623px;
+	top: 432px;
+	z-index: 1;
+}
+
+.services {
+	height: 838px;
+}
+
+.circles {
+	margin-top: 85px;
+	margin-left: 554px;
+}
+
+.our_services {
+	display: block;
+	color: black;
+	margin-top: 104px;
+	text-align: center;
+	padding: 0;
+}
+
+.serv {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.txt {
+	font-size: 16px;
+}
+
+.service {
+	margin-top: 97px;
+	margin-bottom: 158px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.icons {
+	float: right;
+	width: 426px;
+	height: 86px;
+	margin-left: 38px;
+}
+
+.text {
+	margin-top: 22px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.block {
+	margin-bottom: 82px;
+}
+
+.zag {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.about{
+	height: 622px;
+	background: #ffc155;
+}
+
+.table{
+	float: left;
+}
+
+.about_us{
+	padding-top: 164px;
+	padding-left: 690px;
+	color: white;
+}
+
+.ab{
+	font-size: 30px;
+	font-weight: 850;
+	text-transform: uppercase; 
+}
+
+.abs{
+	margin-top:28px;
+	font-size: 13px;
+	line-height: 2;
+}
+
+.read{
+	text-transform: uppercase;
+	margin-top: 58px;
+	background: #ffc155;
+	border: 1px solid #e7ad48;
+	width: 143px;
+	height: 44px;
+	font-size: 13px; 
+}
+
+.price{
+	height: 897px;
+	background: #e7edf3;
+	text-align: center;
+}
+
+.choose{
+	padding-top: 137px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 850;
+
+}
+
+.cho{
+	font-size: 18px;
+	margin-top: 9px;
+	color: #75888d;
+	font-weight: 100;
+}
+
+.basic{
+	float: left;
+	text-align: center;
+	height: 439px;
+	width: 387px;
+	margin-top: 84px;
+	border: 1px solid #ccd5df;
+	border-radius: 2px;
+	background: white;
+}
+
+.plan{
+	padding-top: 56px;
+	font-size: 25px;
+	font-weight: 100;
+	color: #818b95;
+	text-transform: uppercase;
+}
+
+.dollar{
+	font-size: 60px;
+	margin-top: 33px;
+	color: #ffbb42;
+	text-transform: uppercase;
+}
+
+.per{
+	margin-top: 12px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #818b95;
+	font-weight: 100;
+}
+
+.line{
+	width: 329px;
+	height: 1px;
+	margin-top: 32px;
+	background-color: #b5bbc1;
+	border: none;
+}
+
+.lin{
+	width: 329px;
+	height: 1px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	background-color: #b5bbc1;
+	border: none;
+}
+
+.pages{
+	color: #b5bbc1;
+	text-transform: uppercase;
+	font-size: 13.5px;
+	font-weight: 100;
+}
+
+.start{
+	margin-top: 35px;
+	width: 131px;
+	height: 42px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.gold{
+	width: 395px;
+	height: 501px;
+	background: #709dca;
+	float: left;
+	margin-top: 53px;
+}
+
+.gold .plan {
+	padding-top: 87px;
+	color: white;
+}
+
+.gold .dollar{
+	color: white;
+}
+
+.gold .per{
+	color: white;
+}
+
+.pages1{
+	color: #c2e1ff;
+	text-transform: uppercase;
+	font-size: 13.5px;
+}
+
+.how{
+	height: 858px;
+	background: white;
+	text-align: center;
+}
+
+.how .choose{
+	padding-top: 155px;
+}
+
+.how .cho {
+	color: black;
+}
+
+.images{
+	margin-top: 81px;
+	padding-left: 124px;
+	height: 122px;
+}
+
+.headp{
+	float: left;
+	margin-top: 32px;
+}
+
+.strelka{
+	float: left;
+	margin-left: 49px;
+}
+
+.kluch{
+	float: left;
+	height: 61px;
+	margin-left: 62px;
+	margin-top: 32px;
+
+}
+
+.strelka2{
+	float: left;
+	margin-top: 95px;
+	margin-left: 60px;
+}
+
+.cloud{
+	float: left;
+	margin-left: 33px;
+	margin-top: 32px;
+}
+
+.strelka3{
+	float: left;
+	margin-left: 58px;
+}
+
+.hand{
+	float: left;
+	height: 61px;
+	margin-left: 35px;
+	margin-top: 32px;
+}
+
+.steps{
+	margin-top: 65px;
+}
+
+.step2{
+	width: 213px;
+	height: 100px;
+	float: left;
+	margin-left: 55px;
+}
+
+.step{
+	width: 213px;
+	height: 100px;
+	float: left;
+	margin-left: 65px;
+}
+
+.step1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.txt{
+	font-size: 13px;
+	color: #7b7b7b;
+	margin-top: 29px;
+	line-height: 15px;
+}
+
+.how .start{
+	margin-top: 94px;
+	height: 46px;
+	width: 165px;
+}
+
+.clients{
+	height: 909px;
+	background: #ffc155;
+	text-align: center;
+}
+
+.clients .choose{
+	padding-top: 141px;
+	color: white;
+}
+
+.clients .cho{
+	color: white;
+}
+
+.client{
+	margin-top: 62px;
+}
+
+.cl{
+	height: 241px;
+	width: 567px;
+	background: white;
+	border-radius: 2px;
+	float: left;
+}
+
+.foto{
+	padding-left: 30px;
+	padding-top: 43px;
+	float: left;
+}
+
+.txtx{
+	float: left;
+	height: 108px;
+	width: 362px;
+	margin-left: 30px;
+	padding-top: 45px;
+	color: #7b7b7b;
+	font-size: 13px;
+	text-align: left;	
+}
+
+.op2{
+	margin-left: 115px;
+}
+
+.dum{
+	padding-left: 19px;
+	float: left;
+	line-height: 15px;
+}
+
+.names{
+	padding-left: 19px;
+	margin-top: 99px;
+}
+
+.dr{
+	color: #f6772c;
+	display: inline;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.man{
+	color: #99a9ae;
+	display: inline;
+}
+
+.cl1{
+	margin-left: 36px;
+}
+
+.cl2{
+	margin-top: 20px;
+	
+}
+
+.cl3{
+	margin-left: 36px;
+}
+
+.newsletter{
+	height: 1163px;
+	background: white;
+	text-align: center;
+}
+
+.newsletter .choose{
+	padding-top: 154px;
+}
+
+.newsletter form{
+	margin-top: 42px;
+	padding-right: 77px;
+}
+
+.newsletter .name{
+	border: 1px solid #cbcbcb;
+	height: 47px;
+	width: 308px;
+}
+
+.newsletter .mail{
+	border: 1px solid #cbcbcb;
+	height: 47px;
+	width: 388px;
+}
+
+.newsletter button{
+	width: 218px;
+	height: 47px;
+}
+
+.world{
+	width: 1102px;
+	height: 550px;	
+	background: url(../img/world.png);
+	margin: auto;
+}
+
+.world1{
+	margin-top: 53px;
+}
+
+.krug{
+	padding-top: 40px;
+}
+
+.adr{
+	margin-top: -232px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.bus{
+	margin-top: 23px;
+	font-size: 13px;
+	color: #aeb7ba;
+}
+
+.px{
+	margin-top: 10px;
+	font-size: 13px;
+	color: #aeb7ba;
+}
+
+.bf{
+	color: #ffbb42;
+}
+
+.logo2{
+	margin-top: 96px;
+}
+
+.lin2{
+	width: 1170px;
+	height: 1px;
+	margin-top: 57px;
+	margin-bottom: 0;
+	background-color: #e3e7ec;
+	border: none;
+}
+
+.newsletter nav{
+	margin-top: 68px;
+	float: right;
+	padding-right: 222px;
+}
+
+li {
+	float: left;
+	margin-left: 36px;
+}
+
+.newsletter a {
+	color: #394b50;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 550;
+}
+
+.telep{
+	margin-top: 31px;
+	float: left;
+	margin-left: 500px;
+}
+
+.numb{
+	margin-right: 476px;
+	margin-top: 112px;
+	font-size: 22.5px;
+}
+
+.iconss{
+	margin-top: 23px;
+}
+
+.sd{
+	margin-left: 14px;
+}
+
+footer{
+	height: 45px;
+	background: #709dca;
+	text-align: center;
+}
+
+.foo{
+	padding-top: 17px;
+	font-size: 13px;
+	color: white;
+}
